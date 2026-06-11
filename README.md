@@ -12,6 +12,7 @@ STEPS:
 3. An random forest model was trained using the reduced feature dataset.
 
 RESULTS:
+
 1.5-fold CV Accuracy - 99.69% +/- 0.38%
 
 2.Test Accuracy	        98.76%
