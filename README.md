@@ -1,4 +1,5 @@
 # CANCER-TYPE-CLASSIFIER.
+--------------------------------------------------------------------------------------
 INTRODUCTION:
 
 This is a Randon forest model that classifies 5 types of cancers via RNA sequencing using the Cancer Genome Atlas dataset.(801 samples, 20,531 genes).
@@ -19,5 +20,17 @@ RESULTS:
 
 3.Weighted F1	          98.74%
 
+-------------------------------------------------------------------------------------
+Logistic Regression b
 
+As a further to the project an Logistic Regression as a second classifier to benchmark against the existing Random Forest.
+
+Both models achieve identical Cross-Validation accuracy (99.69% ± 0.38%) and test accuracy (98.76%), showing that the
+dataset is linearly separable at the 50-gene level. 
+
+Results for LR:
+1. CV Accuracy	- 99.69% +/- 0.38%
+2. Test Accuracy   -	98.76
+3. Weighted F1	    -	98.75%
+   
 
